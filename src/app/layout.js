@@ -11,9 +11,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script src="./scripts/DOMScript.js" defer></script>
+        <script src="./scripts/DOMScript2.js" defer></script>
+      </head>
       <body className={inter.className}>{children}</body>
-      <script src="./scripts/DOMScript.js" defer></script>
-      <script src="./scripts/DOMScript2.js" defer></script>
+
     </html>
   )
 }
