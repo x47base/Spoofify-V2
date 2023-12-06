@@ -1,8 +1,6 @@
 import Track from '../components/Track';
 import TrackHeader from '../components/TrackHeader';
 import './Main.css';
-
-
 let sounds = require('../app/settings/sounds');
 
 function sound_length_to_text(duration) {

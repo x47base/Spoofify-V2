@@ -1,5 +1,4 @@
 import Image from 'next/image'
-
 import {
   BsClock,
   BsFillBookmarkFill,
@@ -11,17 +10,13 @@ import {
   BsFillVolumeUpFill
 } from "react-icons/bs";
 import "./App.css";
-
 import Form from "../components/Form";
 import Modal from "../components/Modal";
 import Track from '../components/Track';
 import TrackHeader from '../components/TrackHeader';
 import SideBarIcon from '../components/SideBarIcon';
 import Main from '../pages/Main';
-
 import sounds from './settings/sounds';
-
-
 
 const SideBar = () => {
   return (
