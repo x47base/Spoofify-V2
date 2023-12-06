@@ -1,6 +1,6 @@
-let sounds = require("../settings/sounds");
-let song_likes = require("../settings/likes");
-let song_saves = require("../settings/saves");
+let sounds = require("../../src/app/settings/sounds");
+let song_likes = require("../../src/app/settings/likes");
+let song_saves = require("../../src/app/settings/saves");
 
 import { Main } from "next/document";
 
